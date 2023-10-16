@@ -37,12 +37,12 @@ header {
     width: 90%;
     margin: 0 auto;
     padding: 20px;
-    /* background-color: #ffffff; */
 }
 
 .full-width-image {
     width: 100%;
-    height: 600px;
+    height: 80%;
+    object-fit: contain;
 }
 
 h2 {
@@ -79,6 +79,7 @@ h2 {
     width: 100%;
     height: 300px;
     padding-top: 20px;
+    object-fit: contain;
 }
 
 .product:hover img {
@@ -139,4 +140,33 @@ h2 {
 
 #block3 {
     background-color: #FDF8EC;
+}
+.missioncontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.lblock{
+    background-color: azure;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+}
+.lblock p{
+display: block;
+max-width: 50%;
+}
+
+.rblock{
+    max-height: 400px;
+}
+
+.rblock img {
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+ background-color: antiquewhite;
 }
